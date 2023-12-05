@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:'Courier New', Courier, monospace;
+}
+body{
+    color:rgb(72, 133, 185);
+    /* background-image:url("images\b.jpg") no-repeat; */
+
+
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:14px;
+    padding:20px 10px;
+    background:transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color:#fff;
+    text-decoration:none;
+    font-weight: 600;
+}
+.navbar a {
+    display:inline-block;
+    font-size: 25px;
+    color:#fff;
+    text-decoration: none;
+    font-weight:500;
+    margin-left:35px;
+    transition: .3s;
+}
+.navbar a:hover{
+    color:aqua;
+}
+.Home{
+    position:relative;
+    width:100%;
+    justify-content: space-between;
+    height:100vh;
+    background-image:url("images\b.jpg") no-repeat;
+    /* background-color:blue; */
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    align-items: center;
+    position: 70px 10% 0;
+}
+
